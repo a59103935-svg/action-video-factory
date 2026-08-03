@@ -1,0 +1,74 @@
+{
+  "name": "action-video-factory",
+  "version": "1.1.0",
+  "description": "대본(복붙) → 줄콘티 → 텍스트 콘티 → 그림콘티(스케치 패널) → 영상 제작 통합 파이프라인. 액션+감정씬 전용 영화 문법(ECU~EWS, 180도룰, 거장 기법 STYLE 프리셋) 완전 적용. 6단계: ScriptBreakdown → Concept → Storyboard → StoryboardVisual → Direction → Generate. 기본 모델: kling 3.0 (액션), seedance 2.0 (배경), minimax_hailuo (감정씬), nano banana pro (키프레임/그림콘티 패널).",
+  "author": "커스텀 빌드 — action-video-factory v1.0",
+  "keywords": [
+    "action-video-factory",
+    "storyboard",
+    "콘티",
+    "줄콘티",
+    "액션씬",
+    "감정씬",
+    "영화문법",
+    "higgsfield",
+    "kling",
+    "seedance",
+    "nano-banana-pro",
+    "180-degree-rule",
+    "filmmaker-library",
+    "cinematic-video",
+    "shot-list"
+  ],
+  "skills": [
+    {
+      "name": "action-video-factory-create-flow",
+      "path": "skills/action-video-factory-create-flow/SKILL.md",
+      "role": "orchestrator"
+    },
+    {
+      "name": "action-video-factory-script-breakdown",
+      "path": "skills/action-video-factory-script-breakdown/SKILL.md",
+      "role": "intake",
+      "stage": 0
+    },
+    {
+      "name": "action-video-factory-concept",
+      "path": "skills/action-video-factory-concept/SKILL.md",
+      "role": "craft",
+      "stage": 1
+    },
+    {
+      "name": "action-video-factory-storyboard",
+      "path": "skills/action-video-factory-storyboard/SKILL.md",
+      "role": "craft",
+      "stage": 2
+    },
+    {
+      "name": "action-video-factory-storyboard-visual",
+      "path": "skills/action-video-factory-storyboard-visual/SKILL.md",
+      "role": "craft",
+      "stage": 2.5
+    },
+    {
+      "name": "action-video-factory-creative-direction",
+      "path": "skills/action-video-factory-creative-direction/SKILL.md",
+      "role": "craft",
+      "stage": 3
+    },
+    {
+      "name": "action-video-factory-higgsfield-prompt",
+      "path": "skills/action-video-factory-higgsfield-prompt/SKILL.md",
+      "role": "craft",
+      "stage": 4
+    }
+  ],
+  "references": [
+    "references/action-video-foundations.md",
+    "references/action-filmmaker-library.md"
+  ],
+  "upstream": [
+    "video-factory (bpainter/composable-dxp-claude-marketplace)",
+    "storyboard-creation (inference-sh/skills)"
+  ]
+}
